@@ -6,7 +6,6 @@ body {
     padding: 0;
   }
   
-  /* --- Login Page --- */
   .login-container {
     display: flex;
     height: 100vh;
@@ -55,7 +54,6 @@ body {
     font-weight: bold;
   }
   
-  /* --- Feed Page --- */
   .header {
     display: flex;
     justify-content: space-between;
@@ -116,8 +114,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
   }
-  
-  /* --- Recipe Detail --- */
+
   .recipe-detail {
     padding: 1rem;
   }
