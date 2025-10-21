@@ -1,0 +1,138 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgb(18, 13, 13);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* --- Login Page --- */
+  .login-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-card {
+    background: orange;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .logo {
+    background: #999;
+    color: rgb(25, 18, 18);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .login-card input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(245, 245, 245);
+  }
+  
+  .login-card button {
+    background-color: rgb(185, 179, 179);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login-card a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* --- Feed Page --- */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .profile-icon {
+    width: 30px;
+    height: 30px;
+    background: #ccc;
+    border-radius: 50%;
+  }
+  
+  .feed-container {
+    padding: 1rem;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-buttons button {
+    margin-right: 10px;
+    background: #eee;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .recipe-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .see-recipe {
+    margin-top: 10px;
+    background: #f7a600;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* --- Recipe Detail --- */
+  .recipe-detail {
+    padding: 1rem;
+  }
+  
+  .recipe-detail img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .comments {
+    margin-top: 1.5rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  
